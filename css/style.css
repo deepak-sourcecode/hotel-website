@@ -88,6 +88,7 @@ a {
 #showcase .showcase-content p {
   color: white;
   font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
   font-size: 20px;
   padding-bottom: 50px;
 }
@@ -104,4 +105,37 @@ a {
 .btn:hover {
   background-color: #444;
   color: #f7c08a;
+}
+
+/* history */
+#history {
+  height: 570px;
+  position: relative;
+}
+
+#history .container {
+  position: absolute;
+  width: 80%;
+  left: 12%;
+  height: 20%;
+  top: 10%;
+}
+
+#history .history-content {
+  text-align: center;
+}
+
+#history .history-content h2 {
+  font-weight: 700;
+  font-size: 52px;
+}
+
+#history .history-content p {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 100;
+  font-size: 19px;
+  line-height: 1.9em;
+  padding: 15px;
+  padding-bottom: 50px;
 }
