@@ -69,9 +69,9 @@ a {
 #showcase .container {
   position: absolute;
   width: 80%;
-  left: 3%;
-  height: 21%;
-  bottom: 17%;
+  left: 12%;
+  height: 20%;
+  bottom: 18%;
 }
 
 #showcase .showcase-content {
@@ -81,7 +81,7 @@ a {
 #showcase .showcase-content h1 {
   color: white;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 54px;
   padding-bottom: 15px;
 }
 
