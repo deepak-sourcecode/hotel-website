@@ -55,3 +55,53 @@ a {
   background-color: #444;
   color: #f7c08a;
 }
+
+/* showcase */
+#showcase {
+  background-image: url(../img/hotel-image1.jpg);
+  background-size: cover;
+  background-position: 65%;
+  background-repeat: no-repeat;
+  height: 690px;
+  position: relative;
+}
+
+#showcase .container {
+  position: absolute;
+  width: 80%;
+  left: 3%;
+  height: 21%;
+  bottom: 17%;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+}
+
+#showcase .showcase-content h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+#showcase .showcase-content p {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 18px;
+  background-color: #333;
+  padding: 12px 15px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #444;
+  color: #f7c08a;
+}
