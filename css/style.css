@@ -108,21 +108,15 @@ a {
 }
 
 /* history */
-#history {
-  height: 570px;
-  position: relative;
-}
-
 #history .container {
-  position: absolute;
   width: 80%;
-  left: 12%;
-  height: 20%;
-  top: 10%;
+  margin-left: 12%;
 }
 
 #history .history-content {
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 #history .history-content h2 {
