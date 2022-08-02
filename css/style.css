@@ -20,6 +20,10 @@ a {
   max-width: 1200px;
 }
 
+.clear {
+  clear: both;
+}
+
 /* navbar */
 #navbar {
   background-color: #333;
@@ -62,16 +66,13 @@ a {
   background-size: cover;
   background-position: 65%;
   background-repeat: no-repeat;
-  height: 690px;
-  position: relative;
+  height: 700px;
 }
 
 #showcase .container {
-  position: absolute;
   width: 80%;
-  left: 12%;
   height: 20%;
-  bottom: 18%;
+  padding-top: 420px;
 }
 
 #showcase .showcase-content {
@@ -110,7 +111,6 @@ a {
 /* history */
 #history .container {
   width: 80%;
-  margin-left: 12%;
 }
 
 #history .history-content {
@@ -128,8 +128,44 @@ a {
   text-align: center;
   font-family: "Cormorant Garamond", serif;
   font-weight: 100;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.9em;
   padding: 15px;
   padding-bottom: 50px;
+}
+
+/* features */
+#features {
+  overflow: hidden;
+}
+
+#features .feature-box {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 100px 40px;
+  background-color: #dfe4e4;
+}
+
+#features p {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.9em;
+  padding: 15px;
+}
+
+#features h3 {
+  margin-top: 20px;
+}
+
+/* footer */
+#main-footer {
+  background-color: #333;
+}
+
+#main-footer p {
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
