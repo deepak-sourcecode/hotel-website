@@ -36,6 +36,10 @@ a {
   padding: 15px 20px;
 }
 
+#navbar h1.logo a:hover {
+  color: #f7c08a;
+}
+
 #navbar a {
   color: white;
 }
@@ -168,4 +172,71 @@ a {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+/* About page */
+#about-info .container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#about-info .container p {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.5em;
+}
+
+#about-info .container .info-right img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#about-info .container .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+#about-info .container .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  margin-top: 90px;
+}
+
+/* testimonials */
+#testimonials {
+  margin: 50px;
+}
+
+#testimonials .testimonial {
+  height: 250px;
+  background-color: #f7f3f4;
+  padding: 50px 0;
+  border: 2px solid white;
+}
+
+#testimonials h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  padding: 40px 0;
+}
+
+#testimonials .testimonial p {
+  font-family: "Cormorant Garamond", serif;
+  float: right;
+  width: 60%;
+  padding: 25px;
+  margin-right: 12%;
+}
+
+#testimonials img {
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 12%;
 }
