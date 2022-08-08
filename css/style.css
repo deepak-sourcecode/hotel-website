@@ -110,6 +110,7 @@ a {
 .btn:hover {
   background-color: #444;
   color: #f7c08a;
+  cursor: pointer;
 }
 
 /* history */
@@ -239,4 +240,43 @@ a {
   border-radius: 50%;
   float: left;
   margin-left: 12%;
+}
+
+/* contact page */
+#contact-us .container {
+  padding: 50px;
+}
+
+#contact-us .contact-form label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+#contact-us .contact-form input,
+#contact-us .contact-form textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid lightgray;
+}
+
+#contact-us .contact-form input:focus,
+#contact-us .contact-form textarea:focus {
+  outline: none;
+}
+
+#contact-us .contact-form .form-group {
+  padding: 10px 0;
+}
+
+#contact-us h1 {
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+#contact-us p {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 100;
+  font-size: 17px;
+  padding-bottom: 20px;
 }
