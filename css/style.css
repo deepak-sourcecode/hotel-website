@@ -211,15 +211,13 @@ a {
   border: 2px solid white;
 }
 
-#testimonials h2 {
+#testimonials .title-heading {
   text-align: center;
-  font-weight: 700;
   font-size: 35px;
   padding: 40px 0;
 }
 
-#testimonials .testimonial p {
-  font-family: "Cormorant Garamond", serif;
+#testimonials .testimonial .description {
   float: right;
   width: 60%;
   padding: 25px;
@@ -239,6 +237,7 @@ a {
 }
 
 #contact-us .contact-form label {
+  font-size: 15px;
   display: block;
   padding-bottom: 5px;
 }
@@ -259,15 +258,12 @@ a {
   padding: 10px 0;
 }
 
-#contact-us h1 {
-  font-weight: 700;
+#contact-us .title-heading {
   font-size: 35px;
   padding-bottom: 10px;
 }
 
-#contact-us p {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 100;
+#contact-us .description {
   font-size: 17px;
   padding-bottom: 20px;
 }
