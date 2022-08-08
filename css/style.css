@@ -5,16 +5,27 @@
   box-sizing: border-box;
 }
 
-/* main styling */
-body {
-  font-family: "Cormorant SC", serif;
-}
-
+/* element styling */
 a {
   text-decoration: none;
 }
 
 /* utility classes */
+.btn {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 18px;
+  background-color: #333;
+  padding: 12px 15px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #444;
+  color: #f7c08a;
+  cursor: pointer;
+}
+
 .container {
   margin: auto;
   max-width: 1200px;
@@ -24,19 +35,28 @@ a {
   clear: both;
 }
 
-/* navbar */
-#navbar {
-  background-color: #333;
-  overflow: auto;
+.title-heading {
+  font-family: "Cormorant SC", serif;
   font-weight: 700;
 }
 
-#navbar h1.logo {
+.description {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 100;
+}
+
+/* navbar section */
+#navbar {
+  background-color: #333;
+  overflow: auto;
+}
+
+#navbar .logo {
   float: left;
   padding: 15px 20px;
 }
 
-#navbar h1.logo a:hover {
+#navbar .logo a:hover {
   color: #f7c08a;
 }
 
@@ -64,7 +84,7 @@ a {
   color: #f7c08a;
 }
 
-/* showcase */
+/* showcase section */
 #showcase {
   background-image: url(../img/hotel-image1.jpg);
   background-size: cover;
@@ -83,37 +103,20 @@ a {
   text-align: center;
 }
 
-#showcase .showcase-content h1 {
+#showcase .showcase-content .title-heading {
   color: white;
-  font-weight: 700;
   font-size: 54px;
   padding-bottom: 15px;
 }
 
-#showcase .showcase-content p {
+#showcase .showcase-content .description {
   color: white;
-  font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-size: 20px;
   padding-bottom: 50px;
 }
 
-.btn {
-  font-family: "Cormorant Garamond", serif;
-  color: white;
-  font-size: 18px;
-  background-color: #333;
-  padding: 12px 15px;
-  border: none;
-}
-
-.btn:hover {
-  background-color: #444;
-  color: #f7c08a;
-  cursor: pointer;
-}
-
-/* history */
+/* history section */
 #history .container {
   width: 80%;
 }
@@ -124,26 +127,18 @@ a {
   padding-bottom: 80px;
 }
 
-#history .history-content h2 {
-  font-weight: 700;
-  font-size: 52px;
+#history .history-content .title-heading {
+  font-size: 50px;
 }
 
-#history .history-content p {
-  text-align: center;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 100;
+#history .history-content .description {
   font-size: 16px;
   line-height: 1.9em;
   padding: 15px;
   padding-bottom: 50px;
 }
 
-/* features */
-#features {
-  overflow: hidden;
-}
-
+/* features section */
 #features .feature-box {
   width: 33.33%;
   float: left;
@@ -152,38 +147,34 @@ a {
   background-color: #dfe4e4;
 }
 
-#features p {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 100;
+#features .description {
   font-size: 16px;
   line-height: 1.9em;
   padding: 15px;
 }
 
-#features h3 {
+#features .title-heading {
   margin-top: 20px;
 }
 
-/* footer */
+/* footer section */
 #main-footer {
   background-color: #333;
+  text-align: center;
 }
 
-#main-footer p {
+#main-footer .description {
   color: white;
-  text-align: center;
   padding: 10px;
 }
 
-/* About page */
-#about-info .container h1 {
-  font-weight: 700;
+/* about page */
+#about-info .container .title-heading {
   font-size: 40px;
   padding-bottom: 20px;
 }
 
-#about-info .container p {
-  font-family: "Cormorant Garamond", serif;
+#about-info .container .description {
   line-height: 1.5em;
 }
 

@@ -8,6 +8,11 @@
 
     <!-- css sheet -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./css/mobile.css"
+    />
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,18 +47,20 @@
       href="img/favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="img/favicon_io/site.webmanifest" />
-
-    <!-- main html -->
   </head>
+
+  <!-- main html -->
   <body>
     <header>
       <nav id="navbar">
         <div class="container">
-          <h1 class="logo"><a href="./index.html">HILTON</a></h1>
+          <h1 class="title-heading logo"><a href="./index.html">HILTON</a></h1>
           <ul>
-            <li><a class="current" href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li>
+              <a class="current title-heading" href="./index.html">Home</a>
+            </li>
+            <li><a class="title-heading" href="./about.html">About</a></li>
+            <li><a class="title-heading" href="./contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -61,8 +68,8 @@
     <div id="showcase">
       <div class="container">
         <div class="showcase-content">
-          <h1>Enjoy Your Stay</h1>
-          <p>
+          <h1 class="title-heading">Enjoy Your Stay</h1>
+          <p class="description">
             To fill the earth with the light and warmth of hospitality by
             delivering exceptional experiences – every hotel, every guest, every
             time.
@@ -74,8 +81,8 @@
     <section id="history">
       <div class="container">
         <div class="history-content">
-          <h2>History</h2>
-          <p>
+          <h2 class="title-heading">History</h2>
+          <p class="description">
             The very first Hilton hotel came into being in 1919, when Conrad
             purchased the 40-room Mobley Hotel in Cisco, Texas. In the years
             that followed, he expanded the Hilton portfolio throughout Texas,
@@ -103,23 +110,23 @@
     <section id="features">
       <div class="feature-box">
         <i class="fa-solid fa-hotel fa-3x"></i>
-        <h3>Great Location</h3>
-        <p>Private island with sea facing view,</p>
+        <h3 class="title-heading">Great Location</h3>
+        <p class="description">Private island with sea facing view,</p>
       </div>
       <div class="feature-box">
         <i class="fa-solid fa-utensils fa-3x"></i>
-        <h3>Free Meals</h3>
-        <p>Complimentary meals for every stay.</p>
+        <h3 class="title-heading">Free Meals</h3>
+        <p class="description">Complimentary meals for every stay.</p>
       </div>
       <div class="feature-box">
         <i class="fa-solid fa-dumbbell fa-3x"></i>
-        <h3>Fitness Room</h3>
-        <p>24 x 7 open air gym with sauna.</p>
+        <h3 class="title-heading">Fitness Room</h3>
+        <p class="description">24 x 7 open air gym with sauna.</p>
       </div>
     </section>
     <div class="clear"></div>
     <footer id="main-footer">
-      <p>Hotel Hilton &copy; All Rights Reserved</p>
+      <p class="description">Hotel Hilton &copy; All Rights Reserved</p>
     </footer>
   </body>
 </html>
