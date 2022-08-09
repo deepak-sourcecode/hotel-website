@@ -8,14 +8,15 @@
 /* element styling */
 a {
   text-decoration: none;
+  color: white;
 }
 
 /* utility classes */
 .btn {
   font-family: "Cormorant Garamond", serif;
-  color: white;
-  font-size: 18px;
+  font-size: 1.1rem;
   background-color: #333;
+  color: white;
   padding: 12px 15px;
   border: none;
 }
@@ -48,6 +49,8 @@ a {
 /* navbar section */
 #navbar {
   background-color: #333;
+
+  /* understand how this works */
   overflow: auto;
 }
 
@@ -58,10 +61,6 @@ a {
 
 #navbar .logo a:hover {
   color: #f7c08a;
-}
-
-#navbar a {
-  color: white;
 }
 
 #navbar ul {
@@ -105,37 +104,34 @@ a {
 
 #showcase .showcase-content .title-heading {
   color: white;
-  font-size: 54px;
+  font-size: 3.5rem;
   padding-bottom: 15px;
 }
 
 #showcase .showcase-content .description {
   color: white;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.2rem;
   padding-bottom: 50px;
 }
 
 /* history section */
-#history .container {
-  width: 80%;
-}
-
 #history .history-content {
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 #history .history-content .title-heading {
-  font-size: 50px;
+  font-size: 3rem;
+  padding-bottom: 15px;
 }
 
 #history .history-content .description {
-  font-size: 16px;
-  line-height: 1.9em;
-  padding: 15px;
-  padding-bottom: 50px;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 10px 80px;
+  padding-bottom: 60px;
 }
 
 /* features section */
@@ -143,13 +139,13 @@ a {
   width: 33.33%;
   float: left;
   text-align: center;
-  padding: 100px 40px;
+  padding: 80px 40px;
   background-color: #dfe4e4;
+  border: 0.5px solid white;
 }
 
 #features .description {
-  font-size: 16px;
-  line-height: 1.9em;
+  font-size: 1rem;
   padding: 15px;
 }
 
@@ -157,29 +153,19 @@ a {
   margin-top: 20px;
 }
 
-/* footer section */
-#main-footer {
-  background-color: #333;
-  text-align: center;
-}
-
-#main-footer .description {
-  color: white;
-  padding: 10px;
-}
-
 /* about page */
 #about-info .container .title-heading {
-  font-size: 40px;
+  font-size: 3rem;
   padding-bottom: 20px;
 }
 
 #about-info .container .description {
-  line-height: 1.5em;
+  line-height: 1.6rem;
+  font-size: 1.05rem;
 }
 
 #about-info .container .info-right img {
-  width: 70%;
+  width: 75%;
   display: block;
   margin: auto;
 }
@@ -187,48 +173,57 @@ a {
 #about-info .container .info-left {
   float: left;
   width: 50%;
-  min-height: 100%;
-  padding: 30px 20px;
-  margin-top: 50px;
+  padding: 80px 20px 0 60px;
 }
 
 #about-info .container .info-right {
-  float: right;
   width: 50%;
-  min-height: 100%;
-  margin-top: 90px;
+  float: right;
+  padding-top: 80px;
 }
 
 /* testimonials */
 #testimonials {
-  margin: 50px;
+  margin-top: 90px;
+  padding-bottom: 50px;
+  background-color: #edf2f4;
 }
 
-#testimonials .testimonial {
-  height: 250px;
-  background-color: #f7f3f4;
-  padding: 50px 0;
-  border: 2px solid white;
+#testimonials .container {
+  padding: 0px 60px;
 }
 
 #testimonials .title-heading {
+  font-size: 2.7rem;
   text-align: center;
-  font-size: 35px;
-  padding: 40px 0;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: #424546;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+  text-decoration-color: #c5ced1;
+}
+
+#testimonials .testimonial {
+  height: 100%;
+  padding: 50px 0;
+  border-bottom: 1px solid white;
 }
 
 #testimonials .testimonial .description {
   float: right;
-  width: 60%;
-  padding: 25px;
-  margin-right: 12%;
+  width: 50%;
+  font-size: 1.02rem;
+  padding: 10px;
+  margin-right: 15%;
+  line-height: 1.5;
 }
 
 #testimonials img {
   width: 150px;
   border-radius: 50%;
-  float: left;
-  margin-left: 12%;
+  margin-left: 15%;
 }
 
 /* contact page */
@@ -237,7 +232,7 @@ a {
 }
 
 #contact-us .contact-form label {
-  font-size: 15px;
+  font-size: 1.2rem;
   display: block;
   padding-bottom: 5px;
 }
@@ -259,11 +254,23 @@ a {
 }
 
 #contact-us .title-heading {
-  font-size: 35px;
+  font-size: 2.5rem;
   padding-bottom: 10px;
 }
 
 #contact-us .description {
-  font-size: 17px;
+  font-size: 1.02rem;
   padding-bottom: 20px;
+}
+
+/* footer section */
+#main-footer {
+  background-color: #333;
+  text-align: center;
+}
+
+#main-footer .description {
+  color: white;
+  padding: 20px;
+  font-size: 0.5rem;
 }
