@@ -62,3 +62,65 @@
   padding: 25px 0;
   border-bottom: 0.5px solid white;
 }
+
+/* about page */
+#about-info .container .title-heading {
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+#about-info .container .description {
+  font-size: 0.1rem;
+  text-align: center;
+}
+
+#about-info .container .info-left {
+  float: none;
+  width: 100%;
+  padding: 30px 35px 40px 35px;
+}
+
+#about-info .container .info-right {
+  float: none;
+  width: 100%;
+  padding: 0;
+}
+
+#about-info .container .info-right img {
+  width: 90%;
+}
+
+/* testimonials section */
+#testimonials {
+  margin-top: 60px;
+  padding-bottom: 0;
+}
+
+#testimonials .container {
+  padding: 0;
+}
+
+#testimonials .title-heading {
+  font-size: 2.5rem;
+  padding: 40px 30px 20px 30px;
+}
+
+#testimonials .testimonial {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#testimonials .testimonial .description {
+  float: none;
+  width: 100%;
+  font-size: 0.1rem;
+  padding: 20px 50px;
+  margin: 0;
+  text-align: justify;
+  text-align-last: center;
+}
+
+#testimonials img {
+  width: 120px;
+  margin: auto;
+}
