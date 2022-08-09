@@ -1,0 +1,64 @@
+/* utility classes */
+.btn {
+  font-size: 0.3rem;
+  padding: 12px 15px;
+}
+
+/* navbar section */
+#navbar .logo {
+  text-align: center;
+  padding: 15px 20px;
+  float: none;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar li a {
+  text-align: center;
+  padding: 10px;
+}
+
+/* showcase content */
+#showcase .container {
+  width: 95%;
+}
+
+#showcase .showcase-content .title-heading {
+  font-size: 2.7rem;
+  padding-bottom: 10px;
+}
+
+#showcase .showcase-content .description {
+  font-size: 0.6rem;
+  padding-bottom: 40px;
+}
+
+/* history section */
+#history .history-content {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#history .history-content .title-heading {
+  font-size: 2.4rem;
+  padding-bottom: 5px;
+}
+
+#history .history-content .description {
+  font-size: 0.1rem;
+  padding: 10px 45px 40px 45px;
+  padding-left: 10px 45px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* features section */
+#features .feature-box {
+  float: none;
+  width: 100%;
+  padding: 25px 0;
+  border-bottom: 0.5px solid white;
+}

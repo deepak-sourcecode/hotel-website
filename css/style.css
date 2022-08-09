@@ -89,7 +89,7 @@ a {
   background-size: cover;
   background-position: 65%;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 100%;
 }
 
 #showcase .container {
@@ -100,6 +100,7 @@ a {
 
 #showcase .showcase-content {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 #showcase .showcase-content .title-heading {
