@@ -1,6 +1,6 @@
 /* utility classes */
 .btn {
-  font-size: 0.3rem;
+  font-size: 0.9rem;
   padding: 12px 15px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 #showcase .showcase-content .description {
-  font-size: 0.6rem;
+  font-size: 1.08rem;
   padding-bottom: 40px;
 }
 
@@ -48,19 +48,30 @@
 }
 
 #history .history-content .description {
-  font-size: 0.1rem;
+  font-size: 0.9rem;
   padding: 10px 45px 40px 45px;
   padding-left: 10px 45px;
   line-height: 1.7;
   text-align: justify;
+  text-align-last: center;
 }
 
 /* features section */
 #features .feature-box {
   float: none;
   width: 100%;
-  padding: 25px 0;
-  border-bottom: 0.5px solid white;
+  padding: 25px 0 10px 0;
+  border: none;
+  border-bottom: 0.7px solid #f4f1ec;
+  /* border-bottom: 0.5px solid white; */
+}
+
+#features .title-heading {
+  font-size: 1.05rem;
+}
+
+#features .description {
+  font-size: 0.9rem;
 }
 
 /* about page */
@@ -70,7 +81,7 @@
 }
 
 #about-info .container .description {
-  font-size: 0.1rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -113,7 +124,7 @@
 #testimonials .testimonial .description {
   float: none;
   width: 100%;
-  font-size: 0.1rem;
+  font-size: 0.9rem;
   padding: 20px 50px;
   margin: 0;
   text-align: justify;
@@ -123,4 +134,23 @@
 #testimonials img {
   width: 120px;
   margin: auto;
+}
+
+/* contact page */
+
+#contact-us .contact-form label {
+  font-size: 1rem;
+}
+
+#contact-us .title-heading {
+  font-size: 2rem;
+}
+
+#contact-us .description {
+  font-size: 0.9rem;
+}
+
+/* footer section */
+#main-footer .description {
+  font-size: 0.8rem;
 }
