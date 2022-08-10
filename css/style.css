@@ -142,7 +142,11 @@ a {
   text-align: center;
   padding: 70px 40px;
   background-color: #dfe4e4;
-  border: 1px solid #f4f1ec;
+  border-right: 1px solid #f4f1ec;
+}
+
+#features .feature-box:last-child {
+  border-right: none;
 }
 
 #features .description {
@@ -211,6 +215,11 @@ a {
   border-bottom: 1px solid white;
 }
 
+#testimonials .testimonial:last-child {
+  padding-bottom: 100px;
+  border-bottom: none;
+}
+
 #testimonials .testimonial .description {
   float: right;
   width: 50%;
@@ -228,7 +237,7 @@ a {
 
 /* contact page */
 #contact-us .container {
-  padding: 50px;
+  padding: 100px 50px 200px 50px;
 }
 
 #contact-us .contact-form label {
